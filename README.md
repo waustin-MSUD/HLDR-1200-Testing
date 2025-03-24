@@ -1,21 +1,33 @@
 The War on Drugs
-============
+================
 
 This site is for testing and proofreading the War on Drugs Twine simulation for HLDR 1200.
 
-There are two pages:
+Live Demo
+---------
 
-The first is a live demo of the simulation in its current state.
+This link lets reviewers play the Twine in its current state.
 
 [Live Demo](https://waustin-MSUD.github.io/HLDR-1200-Testing/index.html)
 
-The second is a page that allows reviewers to make edits and changes in each passage in the simulation.
+Review
+------
 
-This works in a browser, but only locally. Change lists have to be exported and emailed, but it's still slightly better than a spreadsheet.
-
-![alt text](https://github.com/waustin-MSUD/HLDR-1200-Testing/blob/main/illumination.png?raw=true)
+This tool allows reviwers to make edits and changes in each passage in the simulation.
 
 [Proof/Add Comments](https://waustin-MSUD.github.io/HLDR-1200-Testing/illumination.html)
+
+To use this tool, it helps to have it open in a second browser tab while reviewing.
+
+You can select passages on the left side, make edits, then flag that passage as reviewed to remove it from your list.
+
+See below for a screenshot.
+
+When finished reviewing, **export the change list** and email it to the Will and Dawson.
+
+It's a slightly clunky process, but better than a spreadsheet.
+
+![alt text](https://github.com/waustin-MSUD/HLDR-1200-Testing/blob/main/illumination.png?raw=true)
 
 Passage Structure
 ------------
