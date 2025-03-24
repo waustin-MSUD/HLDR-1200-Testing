@@ -3,7 +3,7 @@ The War on Drugs
 
 This site is for testing and proofreading the War on Drugs Twine simulation for HLDR 1200.
 
-The Twine simulation is, of course, not yet completely finished, but this site will help everyone know what needs work and if any features are broken.
+The Twine simulation is, of course, not yet finalized, but this site will help everyone see and note what needs work.
 
 Live Demo
 ---------
