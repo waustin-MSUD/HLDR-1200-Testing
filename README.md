@@ -15,7 +15,7 @@ Review
 
 This tool allows reviwers to make edits and changes in each passage in the simulation.
 
-[Proof/Add Comments](https://waustin-MSUD.github.io/HLDR-1200-Testing/illumination.html)
+[Review Twine Simulation](https://waustin-MSUD.github.io/HLDR-1200-Testing/illumination.html)
 
 * It helps to have it open in a second browser tab while reviewing.
 * You can select passages on the left side and make edits.
