@@ -1,8 +1,6 @@
 The War on Drugs
 ================
 
-This site is for testing and proofreading the War on Drugs Twine simulation for HLDR 1200.
-
 The Twine simulation is, of course, not yet finalized, but this site will help everyone see and note what needs work.
 
 Live Demo
@@ -15,7 +13,7 @@ This link lets reviewers play the Twine in its current state.
 Review
 ------
 
-This tool allows reviwers to make edits and changes in each passage in the simulation.
+This tool allows reviewers to make edits and changes in each passage in the simulation.
 
 [Review Twine Simulation](https://waustin-MSUD.github.io/HLDR-1200-Testing/illumination.html)
 
