@@ -17,17 +17,14 @@ This tool allows reviwers to make edits and changes in each passage in the simul
 
 [Proof/Add Comments](https://waustin-MSUD.github.io/HLDR-1200-Testing/illumination.html)
 
-To use this tool, it helps to have it open in a second browser tab while reviewing.
-
-You can select passages on the left side, make edits, then flag that passage as reviewed to remove it from your list.
-
-See below for a screenshot.
-
-When finished reviewing, **export the change list** and email it to the Will and Dawson.
+* It helps to have it open in a second browser tab while reviewing.
+* You can select passages on the left side and make edits.
+* Flag that passage as reviewed to remove it from your list.
+* When finished reviewing, **export the change list** and email it to the Will and Dawson.
 
 It's a slightly clunky process, but better than a spreadsheet.
 
-![alt text](https://github.com/waustin-MSUD/HLDR-1200-Testing/blob/main/illumination.png?raw=true)
+![illume screenshot showing flag as reviewed and export change list](https://github.com/waustin-MSUD/HLDR-1200-Testing/blob/main/illumination.png?raw=true)
 
 Passage Structure
 ------------
