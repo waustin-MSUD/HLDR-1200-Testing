@@ -13,6 +13,8 @@ The second is a page that allows reviewers to make edits and changes in each pas
 
 This works in a browser, but only locally. Change lists have to be exported and emailed, but it's still slightly better than a spreadsheet.
 
+![alt text](https://github.com/waustin-MSUD/HLDR-1200-Testing/blob/main/illumination.png?raw=true)
+
 [Proof/Add Comments](https://waustin-MSUD.github.io/HLDR-1200-Testing/illumination.html)
 
 Passage Structure
