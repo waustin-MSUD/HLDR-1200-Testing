@@ -17,10 +17,10 @@ This tool allows reviwers to make edits and changes in each passage in the simul
 
 [Review Twine Simulation](https://waustin-MSUD.github.io/HLDR-1200-Testing/illumination.html)
 
-* It helps to have it open in a second browser tab while reviewing.
-* You can select passages on the left side and make edits.
-* Flag that passage as reviewed to remove it from your list.
-* When finished reviewing, **export the change list** and email it to the Will and Dawson.
+* It helps to have it open in a second browser tab while reviewing, with the live demo in another tab.
+* You can select passages on the left side and make edits (see screenshot).
+* Flag that passage as reviewed to remove it from your list (see screenshot).
+* When finished reviewing, **export the change list** and email it to the Will and Dawson (see screenshot).
 
 It's a slightly clunky process, but better than a spreadsheet.
 
