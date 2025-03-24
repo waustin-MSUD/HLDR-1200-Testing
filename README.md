@@ -20,7 +20,7 @@ This tool allows reviwers to make edits and changes in each passage in the simul
 * It helps to have it open in a second browser tab while reviewing, with the live demo in another tab.
 * You can select passages on the left side and make edits (see screenshot).
 * Flag that passage as reviewed to remove it from your list (see screenshot).
-* When finished reviewing, **export the change list** and email it to Will and Dawson (see screenshot).
+* When finished with every review session, **export the change list** and email it to Will and Dawson (see screenshot). I don't think this will save change lists from session to session.
 
 It's a slightly clunky process, but better than a spreadsheet.
 
