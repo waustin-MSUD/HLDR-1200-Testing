@@ -9,9 +9,11 @@ The first is a live demo of the simulation in its current state.
 
 [Live Demo](https://waustin-MSUD.github.io/HLDR-1200-Testing/index.html)
 
-The second is a page that allows reviewers to leave comments on each passage in the simulation.
+The second is a page that allows reviewers to make edits and changes in each passage in the simulation.
 
-[Proof/Add Comments](https://waustin-MSUD.github.io/HLDR-1200-Testing/Poof_%20War%20on%20Drugs.html)
+This works in a browser, but only locally. Change lists have to be exported and emailed, but it's still slightly better than a spreadsheet.
+
+[Proof/Add Comments](https://waustin-MSUD.github.io/HLDR-1200-Testing/illumination.html)
 
 Passage Structure
 ------------
