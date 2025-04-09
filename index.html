@@ -104,7 +104,7 @@ var LZString=function(){var r=String.fromCharCode,o="ABCDEFGHIJKLMNOPQRSTUVWXYZa
 		<div id="init-lacking"><p>Browser lacks capabilities required to play.</p><p>Upgrade or switch to another browser.</p></div>
 		<div id="init-loading"><div>Loading&hellip;</div></div>
 	</div>
-	<tw-storydata name="War on Drugs" startnode="1" creator="Twine" creator-version="2.10.0" format="SugarCube" format-version="2.37.3" ifid="2F329366-7393-484B-B197-DD974FFD475B" options="" tags="" zoom="1" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* ---------------IMPORT FONTS-------------- */
+	<tw-storydata name="War on Drugs" startnode="68" creator="Twine" creator-version="2.10.0" format="SugarCube" format-version="2.37.3" ifid="2F329366-7393-484B-B197-DD974FFD475B" options="" tags="" zoom="0.6" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">/* ---------------IMPORT FONTS-------------- */
 
 /* Monospaced */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
@@ -1173,15 +1173,23 @@ Macro.add('video', {
 Jump in and experience all three characters in whichever order you like.
 
 Every ending will bring you back to this page.
+
 &lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Michael Thompson]]&lt;/div&gt;&lt;/div&gt; 
 &lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[John Anderson]]&lt;/div&gt;&lt;/div&gt; 
 &lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Jamal Washington]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="2" name="JA00S" tags="JA" position="1500,550" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 2000s&lt;/h1&gt;&lt;/div&gt;
 &lt;&lt;video &quot;videos/02-Gun.mp4&quot; controls&gt;&gt;
 &lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JA2A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="3" name="JA10S" tags="JA" position="1500,675" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 2010s&lt;/h1&gt;&lt;/div&gt;
 &lt;&lt;video &quot;videos/06-Flat.mp4&quot; controls&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JA3A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="JA1A" tags="JA" position="1500,425" size="100,100">&lt;img src=&quot;images/JA1A.JPG&quot;/&gt;
-You just graduated from cornell with a business degree. Money has never been a worry for you. Your dad inherited his dads real estate business, and they expect you to take it over next. This is a safe option but you have dreams of something else. Cannabis just got legalized in colorado and you hope to get in on the ground floor and start a new empire. Your dad disagress with your plan, he knows theres no risk in his real estate business. He asks to talk to you when you get back to Aspen from Cornell. 
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Talk to father|JA1B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="JA1B" tags="JA" position="1625,425" size="100,100">&lt;img src=&quot;images/JA1B.JPG&quot;/&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JA3A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="4" name="JA1A" tags="JA" position="1500,425" size="100,100">&lt;img src=&quot;images/JA0A.JPG&quot; alt=&quot;John is a young white man with wavy blond hair, light facial hair, and sunglasses, smiling confidently in a casual gray t-shirt.&quot;/&gt;
+You just graduated from Cornell with a business degree.
+
+Money has never been a worry for you. Your dad inherited his dad&#39;s real estate business, and they expect you to continue this tradition. It&#39;s a safe option but you have dreams of something else.
+
+You see the writing on the wall. You know Colorado is poised to legalize cannabis within the next few legislative sessions and you hope to get in on the ground floor, maybe start your own empire.
+
+Your dad disagress with your plan, he knows theres no risk in his real estate business. He asks to talk to you when you get back to Aspen from New York. 
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JA1B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="5" name="JA1B" tags="JA" position="1625,425" size="100,100">&lt;img src=&quot;images/JA1B.JPG&quot; alt=&quot;John sits across from his father in his study, a serious look on his face.&quot;/&gt;
 You meet with your father in his estate in Aspen:
 &lt;&lt;ctp &quot;JAandJAdad&quot;&gt;&gt;
 &lt;&lt;jadad&gt;&gt;John, your grandfather made his fortune in real estate.&lt;&lt;/jadad&gt;&gt;
@@ -1198,11 +1206,17 @@ You think they’ll do that for people like Michael Thompson?
 &lt;&lt;/ctp&gt;&gt;
 
 You hear his advice but you know theres money to be made in cannabis. Didn&#39;t grandpa have to take a risk at some point?
-Its time to make your decision. Do you play it safe and keep working in the family business? Or do you invest in cannabis early?
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Take over real estate business|JA00S][$wealth +=30, $health +=10]]&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Invest in cannabis early|JA00S][$wealth +=50]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="6" name="JA2A" tags="JA" position="1625,550" size="100,100">&lt;img src=&quot;images/JA2A.JPG&quot;/&gt;
-Cannabis is still illegal federally but in some states the medical sector is profitable. You get a call from Dave, your friend from Cornell. You guys always talked about investing together, maybe now is the perfect time?
-Dave flies into Aspen and you show him the beauties of Colorado. Before long business talks begin and Dave agrees, theres less risk for you guys. 
+
+What are you going to do?
+Do you play it safe and keep working in the family business?
+Or do you become an early investor in the cannabis industry?
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Real estate tradition|JA00S][$wealth +=30, $health +=10]]&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Invest in cannabis|JA00S][$wealth +=50]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="6" name="JA2A" tags="JA" position="1625,550" size="100,100">&lt;img src=&quot;images/JA2A.JPG&quot; alt=&quot;John sits casually in front of a fireplace talking with a friend.&quot;/&gt;
+Cannabis is still illegal federally but in some states the medical sector is profitable. 
+
+You get a call from Dave, your friend from Cornell. You guys always talked about investing together, maybe now is the perfect time?
+Dave flies into Aspen and you show him the beauties of Colorado. Before long business talks begin and Dave agrees: theres less risk for you guys. 
 
 &lt;&lt;ctp &quot;JAandJAfriend&quot;&gt;&gt;
 &lt;&lt;jafriend&gt;&gt;This new medical marijuana industry is risky…&lt;&lt;/jafriend&gt;&gt;
@@ -1210,12 +1224,22 @@ Dave flies into Aspen and you show him the beauties of Colorado. Before long bus
 &lt;&lt;ctpNext&gt;&gt;
 &lt;&lt;jafriend&gt;&gt;but let’s be real; we aren’t the ones getting arrested for this.&lt;&lt;/jafriend&gt;&gt;
 &lt;&lt;/ctp&gt;&gt;
-You know he is right, no matter how bad it feels. You know theres long been injustice surronding cannabis in different communities. Dave leaves Aspen the next day, you still haven&#39;t given him your decision yet. You haven&#39;t decided yet yourself. 
-Do you play it safe in a retail business or take a risk and invest in medical marijuana?
+
+You know he is right, no matter how bad it feels. You know there&#39;s long been injustice surronding cannabis in different communities.
+
+Dave leaves Aspen the next day. You still haven&#39;t given him your decision yet. You haven&#39;t decided yet yourself.
+
+What do you do?
+Play it safe in a new retail investment.
+Or take a risk and invest in medical marijuana?
+
 &lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Real Estate|JA10S][$wealth +=20]]&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Medical Marijuana|JA10S][$wealth +=40, $sysdis +=5]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="JA3A" tags="JA" position="1625,675" size="100,100">&lt;img src=&quot;images/JA3A.JPG&quot;/&gt;
-Its 2014, an amendment got passed in 2012 in Colorado, allowing for the sell of recreational cannabis. Big investors dominate from the start, they have the captial to open lots of dispensaries without worrying about profit right away. 
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JA3B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="8" name="JA3B" tags="JA" position="1750,675" size="100,100">&lt;img src=&quot;images/JA3A.JPG&quot;/&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Medical Marijuana|JA10S][$wealth +=40, $sysdis +=5]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="7" name="JA3A" tags="JA" position="1625,675" size="100,100">&lt;img src=&quot;images/JA3A.JPG&quot; alt=&quot;John now in his 30s having a discussion at an upscale bar.&quot;/&gt;
+It&#39;s 2014. The Colorado legislature passed, an amendment in 2012 legalizing recreational cannabis sales for the first time.
+
+Big investors dominate from the start. They have the captial to open lots of dispensaries without worrying about making quick profits.
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JA3B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="8" name="JA3B" tags="JA" position="1750,675" size="100,100">&lt;img src=&quot;images/JA3A.JPG&quot; alt=&quot;John now in his 30s having a discussion at an upscale bar.&quot;/&gt;
 &lt;&lt;ctp &quot;JA&quot;&gt;&gt;
 &lt;&lt;ja&gt;&gt;&quot;So they finally legalized it...&lt;&lt;/ja&gt;&gt;
 &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;JA&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
@@ -1226,32 +1250,50 @@ Its 2014, an amendment got passed in 2012 in Colorado, allowing for the sell of 
 &lt;&lt;ja&gt;&gt;Wild.&lt;&lt;/ja&gt;&gt;
 &lt;&lt;/ctp&gt;&gt;
 
-Weed has been legal for a few weeks now and Dave is worried about the increased risk. The new market is hot right now, but who knows if it will stay that way. He thinks you guys should shift to a safer business plan and franchise a fast food restaurant. You still see opportunities in Cannabis. You see an opportunity to invest on a corporate scale into the cannabis industry. Time is running out if you want to get into cannabis early, what do you decide?
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Franchise in fast food|JA4A][$wealth +=10]]&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Invest in cannabis at a corporate scale|JA3C][$wealth +=50]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="9" name="JA3C" tags="JA" position="1675,800" size="100,100">&lt;img src=&quot;images/JA3C.JPG&quot;/&gt;
-You&#39;ve decided that you&#39;re committed to investing in the cannabis industry. Your dad is displeased with your decision and urges you to reconsider. He thinks the risk is too great in a new industry. 
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Risk assesment|JA3D]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="10" name="JA3D" tags="JA" position="1800,800" size="100,100">&lt;img src=&quot;images/JA3C.JPG&quot;/&gt;
+Weed has been legal for a few weeks now and Dave is worried about the increased risk. The new market is hot, but who knows if it will stay that way.
+
+He thinks you guys should shift to a safer business plan and franchise a fast food restaurant. You still see an opportunity to invest on a corporate scale into the cannabis industry. Time is running out if you want to get into cannabis early, what do you want to do?
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Franchise|JA4A][$wealth +=10]]&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Invest in cannabis|JA3C][$wealth +=50]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="9" name="JA3C" tags="JA" position="1675,800" size="100,100">&lt;img src=&quot;images/JA3C.JPG&quot; alt=&quot;John sits in his apartment reading a newspaper.&quot;/&gt;
+You&#39;ve decided that you&#39;re committed to investing in the cannabis industry.
+
+Your dad is displeased with your decision and urges you to reconsider. He thinks the risk is too great in a new industry.
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JA3D]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="10" name="JA3D" tags="JA" position="1800,800" size="100,100">&lt;img src=&quot;images/JA3C.JPG&quot; alt=&quot;John sits in his apartment reading a newspaper.&quot;/&gt;
 &lt;div class=&quot;notebox&quot;&gt;
-THE DENVER POST
+THE DENVER PILLAR
 &lt;hr&gt;
 &lt;&lt;type 60ms&gt;&gt;Black communities faced higher incarceration rates for cannabis, but now wealthy investors are swooping in.&lt;&lt;/type&gt;&gt;
 &lt;hr&gt;
 &lt;/div&gt;
+Your dad knows now how committed you are to the cannabis industry and tries to form a compromise. He wants you to start small, maybe as a partial owner of one dispensary.
 
-Your dad knows now that you are committed to the cannabis industry and tries to form a compromise. He wants you to start small, maybe as a partial owner of one dispensary. You still think there is fortunes to be made in the new market. You want to go all-in and start your own chain of dispensaries. You have the capital to open multiple stores and compete with local dispensary prices. 
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Small scale investments|JA3E][$wealth +=30]]&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Go all-in and fund dispensary chain|JA3F][$wealth +=50, $sysdis +=5]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="11" name="JA3E" tags="JA" position="1700,925" size="100,100">&lt;img src=&quot;images/JA3E.JPG&quot;/&gt;
-&lt;&lt;ja&gt;&gt;&quot;This industry is blowing up. I’d be stupid not to get in… but I gotta be careful. Politics change fast.&quot;&lt;&lt;/ja&gt;&gt;
-Your dad is happy with your decision. At least now if this experiment fails, you can still fall back on the families real estate company. 
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[News segment|JA4C]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="12" name="JA3F" tags="JA" position="1825,925" size="100,100">&lt;img src=&quot;images/JA3F.JPG&quot;/&gt;
-You take your dads advice into consideration, but you know this is worth the risk. You use most of the capital you have and use it to fund a chain of dispensaries.
-&lt;&lt;ja&gt;&gt;&quot;Money’s about timing, and I’m ahead of the curve. Funny how something illegal yesterday makes you rich today—if you’re the right kind of person.&quot;&lt;&lt;/ja&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[News segment|JA4C]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="13" name="JA4A" tags="JA" position="1550,800" size="100,100">&lt;img src=&quot;images/JA4A.JPG&quot;/&gt;
-You decide to listen to your dads advice, he has successfuly ran a business for decades. This option avoids the risk and when your dad is ready to retire, you can take over the main business. Using your dads real estate connections you start buying buildings to turn them into subway restaurants. The new stores quickly start making a profit. Its nothing compared to what your dads business makes, but at least this is yours. 
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[News report|JA4B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="14" name="JA4B" tags="JA" position="1550,925" size="100,100">&lt;img src=&quot;images/JA4B.JPG&quot;/&gt;
-“They finally got their foot in the door, and the big guys still locked them out.”
+You still think there is a fortune to be made in the new market. You want to go all-in and start your own chain of dispensaries. You have the capital to open multiple stores and compete with local dispensaries&#39; prices.
+
+What will you do?
+Go with your dad&#39;s advice?
+Or stick with your gut and go all-in?
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Small-scale|JA3E][$wealth +=30]]&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Go all-in|JA3F][$wealth +=50, $sysdis +=5]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="11" name="JA3E" tags="JA" position="1700,925" size="100,100">&lt;img src=&quot;images/JA3E.JPG&quot; alt=&quot;John sitting at his kitchen counter with a serious expression.&quot;/&gt;
+&lt;&lt;ja&gt;&gt;This industry is blowing up. I’d be stupid not to get in… but I gotta be careful. Politics change fast.&lt;&lt;/ja&gt;&gt;
+Your dad is happy with your decision. At least now if this experiment fails, you can still fall back on the family&#39;s real estate company. 
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JA4C]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="12" name="JA3F" tags="JA" position="1825,925" size="100,100">&lt;img src=&quot;images/JA3F.JPG&quot; alt=&quot;John in his apartment having a conversation on a cordless phone.&quot;/&gt;
+You take your dad&#39;s advice into consideration, but you know in your gut this is worth the risk. You use most of the capital you have and use it to fund a chain of dispensaries.
+&lt;&lt;ja&gt;&gt;Money’s about timing, and I’m ahead of the curve. Funny how something illegal yesterday makes you rich today—if you’re the right kind of person.&lt;&lt;/ja&gt;&gt;
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JA4C]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="13" name="JA4A" tags="JA" position="1550,800" size="100,100">&lt;img src=&quot;images/JA4A.JPG&quot; alt=&quot;An older john in business casual attire at a window in a high-rise apartment.&quot;/&gt;
+You decide to listen to your dad&#39;s advice. After all, he has successfuly run a business for decades. Like he said, this option avoids risk. When your dad is ready to retire, you can take over.
+
+Using your dad&#39;s real estate connections, you start buying buildings to turn them into Subway restaurants. The new stores quickly start making a profit. It&#39;s nothing compared to what your dad&#39;s business makes, but at least this is yours.
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JA4B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="14" name="JA4B" tags="JA" position="1550,925" size="100,100">&lt;img src=&quot;images/denverpost.png&quot; alt=&quot;the front page of the denver post&quot;/&gt;
 News Report: exposé on social-equity barriers in cannabis.
-Exhales. He never needed to take risks. His money worked for him. Not everyone had that luxury.
+&lt;&lt;ja&gt;&gt;They finally got their foot in the door, and the big guys still locked them out.&lt;&lt;/ja&gt;&gt;
+
+You exhale and think about how you never really needed to take risks. Your money worked for you. Not everyone had that luxury.
 &lt;&lt;set $JAplayed to true&gt;&gt;
 
 
@@ -1263,9 +1305,19 @@ Exhales. He never needed to take risks. His money worked for him. Not everyone h
 	&lt;&lt;/if&gt;&gt;
 &lt;&lt;else&gt;&gt;
 	&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[The End|Character Select]]&lt;/div&gt;&lt;/div&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="15" name="JA4C" tags="JA" position="1775,1050" size="100,100">&lt;img src=&quot;images/JA4C.JPG&quot;/&gt;
-You see a report in the Denver Pillar and it reads: Colorado’s cannabis boom: From War on Drugs to Wall Street. The industry is projected to exceed $10 billion, but Black entrepreneurs face hurdles entering the space.&quot;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Back to John|JA4D]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="16" name="JA4D" tags="JA" position="1550,1100" size="100,100">&lt;img src=&quot;images/JA4D.JPG&quot;/&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="15" name="JA4C" tags="JA" position="1775,1050" size="100,100">&lt;img src=&quot;images/JA3C.JPG&quot; alt=&quot;John sits in his apartment reading a newspaper.&quot;/&gt;
+You see a report in the Denver Pillar: 
+
+&lt;div class=&quot;notebox&quot;&gt;
+THE DENVER PILLAR
+&lt;hr&gt;
+&lt;div class=&quot;center&quot;&gt;Colorado’s Cannabis Boom:&lt;br /&gt;from War on Drugs to Wall Street.&lt;/div&gt;
+&lt;&lt;type 60ms&gt;&gt;The industry is projected to exceed $10 billion, but Black entrepreneurs face hurdles entering the space.&lt;&lt;/type&gt;&gt;
+&lt;hr&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Back to John|JA4D]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="16" name="JA4D" tags="JA" position="1550,1100" size="100,100">&lt;img src=&quot;images/JA4C.JPG&quot; alt=&quot;John lounging on a boat in the middle of a lake surrounded by foothills.&quot;/&gt;
 You sit back on a large boat in the Chatfield Reservoir:
 &lt;&lt;ctp &quot;JA&quot;&gt;&gt;
 &lt;&lt;ja&gt;&gt;Funny. Some guys sit in a cell for selling a gram of this stuff.&lt;&lt;/ja&gt;&gt;
@@ -1277,14 +1329,15 @@ You sit back on a large boat in the Chatfield Reservoir:
 &lt;&lt;ja&gt;&gt;The system worked for me. Hell, it was built for me.&lt;&lt;/ja&gt;&gt;
 (If things were fair, would he be where he is?)
 &lt;&lt;/ctp&gt;&gt;
-Your dad retires when you are 36 and the real estate business is passed down to you. Your dispensary chain is one of the biggest in Colorado with stores in most counties. You have enough money to retire now, hell you have enough money that your children will never have to work. 
+Your dad retires when you are 36 and the real estate business is passed down to you. Your dispensary chain is one of the biggest in Colorado with stores in most counties. You have enough money to retire now. Hell, you have enough money that your children will never have to work...just how &lt;strong&gt;you&lt;/strong&gt; started, in fact.
 &lt;&lt;set $JAplayed to true&gt;&gt;
-&lt;&lt;if $MTplayed is true&gt;&gt;&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Meet with Michael|JA5B]]&lt;/div&gt;&lt;/div&gt;&lt;&lt;else&gt;&gt;&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Character Select]]&lt;/div&gt;&lt;/div&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="JA5A" tags="JA Crossover MT" position="1300,1000" size="100,100">&lt;img src=&quot;images/JA5A.JPG&quot;/&gt;
+&lt;&lt;if $MTplayed is true&gt;&gt;&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JA5B]]&lt;/div&gt;&lt;/div&gt;&lt;&lt;else&gt;&gt;&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[The End|Character Select]]&lt;/div&gt;&lt;/div&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="17" name="JA5A" tags="JA Crossover MT" position="1300,1000" size="100,100">&lt;img src=&quot;images/JA3C.JPG&quot; alt=&quot;John sits in his apartment reading a newspaper.&quot;/&gt;
 You read a news article about cannabis industry expansion. A name catches your eye: Michael Thompson.
-“Wait, I know him. Used to buy weed from him in 2003. Got locked up in 2003. He’s still there.”
+“Wait, I know him. Used to buy weed from him. Got locked up in 2003. He’s still there.”
 “Ten years for possession. I made ten million off the same thing.”
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="18" name="JA5B" tags="JA Crossover MT" position="1425,1100" size="100,100">&lt;img src=&quot;images/JA5B.JPG&quot;/&gt;
-our dispensary chain is holding an event and members of the industry across Colorado are invited. You spot Michael at the event and go up to talk to him. 
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[The End|Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="18" name="JA5B" tags="JA Crossover MT" position="1425,1100" size="100,100">&lt;img src=&quot;images/JA5B.JPG&quot; alt=&quot;An older John dressed for a casual evening at a business cocktail party.&quot;/&gt;
+Your dispensary chain is holding an event and members of the industry across Colorado are invited. You spot Michael Thompson at the event and go up to talk to him. 
 &lt;&lt;ctp &quot;JAandMT&quot;&gt;&gt;
 &lt;&lt;ja&gt;&gt;Michael? Damn, man, it’s been years.&lt;&lt;/ja&gt;&gt;
 &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;JAandMT&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
@@ -1292,10 +1345,10 @@ our dispensary chain is holding an event and members of the industry across Colo
 &lt;&lt;mt&gt;&gt;Yeah, funny how we both ended up in the same business.&lt;&lt;/mt&gt;&gt;
 &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;JAandMT&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 &lt;&lt;ctpNext&gt;&gt;
-&lt;&lt;ja&gt;&gt;Yeah, well different starting points.&lt;&lt;/ja&gt;&gt;
+&lt;&lt;ja&gt;&gt;Yeah, well, from different starting points.&lt;&lt;/ja&gt;&gt;
 Michael doesn’t laugh.
 &lt;&lt;/ctp&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="19" name="JA90S" tags="JA" position="1525,300" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 1990s&lt;/h1&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[The End|Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="19" name="JA90S" tags="JA" position="1525,300" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 1990s&lt;/h1&gt;&lt;/div&gt;
 &lt;&lt;video &quot;videos/93-GetHighGetStupidGetAIDS.mp4&quot; controls&gt;&gt;
 &lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JA1A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="20" name="JW00S" tags="JW" position="950,875" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 2000s&lt;/h1&gt;&lt;/div&gt;
 &lt;&lt;video &quot;videos/HugginTheBlock.mp4&quot; controls&gt;&gt;
@@ -1303,10 +1356,12 @@ Michael doesn’t laugh.
 &lt;&lt;video &quot;videos/HugginTheBlock.mp4&quot; controls&gt;&gt;
 &lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW2D]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="22" name="JW10S" tags="JW" position="775,1075" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 2000s&lt;/h1&gt;&lt;/div&gt;
 &lt;&lt;video &quot;videos/15-Achievements.mp4&quot; controls&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW3A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="23" name="JW1A" tags="JW" position="850,625" size="100,100">&lt;img src=&quot;images/JW1A.JPG&quot;/&gt;
-You just graduated High School! It starts to weigh on you the decisions you have to make soon. Do you go to college or get a job and make money for your family. You decide to talk to your grandma, she always has good advice. 
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Talk with grandma|JW1B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="24" name="JW1B" tags="JW" position="975,625" size="100,100">&lt;img src=&quot;images/JW1B.JPG&quot;/&gt;
-You find your grandma on the porch and just talk.
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW3A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="23" name="JW1A" tags="JW" position="850,625" size="100,100">&lt;img src=&quot;images/JW1A.JPG&quot; alt=&quot;Jamal is a young black man with short natural hair and neatly trimmed facial hair. He is dressed in a cap and gown for graduation.&quot;/&gt;
+You just graduated High School! You start to feel the weight of the decisions you&#39;ll have to make soon.
+
+Do you go to college or get a job and make money for your family. You decide to talk to your grandma. She always has good advice. 
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Talk with grandma|JW1B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="24" name="JW1B" tags="JW" position="975,625" size="100,100">&lt;img src=&quot;images/JW1B.JPG&quot; alt=&quot;Jamal sits across from his grandmother on the porch of their house.&quot;/&gt;
+You find her on the porch, same as always, rocking slow in the late afternoon light. The air smells like cut grass and something frying down the street. You sit beside her, not saying much at first—just listening to the creak of the rocker, the rustle of wind in the trees. She breaks the silence for you, knowing you&#39;re not the kind to get the ball rolling.
 &lt;&lt;ctp &quot;jwgmom&quot;&gt;&gt;
 &lt;&lt;jwgmom&gt;&gt;They’re building another shopping center down the road. Said it’ll bring in business.&lt;&lt;/jwgmom&gt;&gt;
 &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;jwgmom&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
@@ -1328,29 +1383,35 @@ She looks up at you, shaking her head.
 &lt;&lt;ctpNext&gt;&gt;
 &lt;&lt;jwgmom&gt;&gt;Did they?&lt;&lt;/jwgmom&gt;&gt;
 &lt;&lt;/ctp&gt;&gt;
-Your left with two choices now. Do you go to college and get a degree or open up your small business?
+The conversation continues like this for a while. As painful as it might be, you know she&#39;s preparing you for the real world. Still, the choice is yours to make.
+
+Do you go to college and get a degree or start working right away to help the family out?
 &lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Get a Job|JW1C][$sysdis +=10, $wealth -=10]]&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Pursue higher education|JW1D][$sysdis +=5, $wealth +=10]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="25" name="JW1C" tags="JW" position="850,750" size="100,100">&lt;img src=&quot;images/JW1C.JPG&quot; alt=&quot;.&quot;&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Pursue higher education|JW1D][$sysdis +=5, $wealth +=10]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="25" name="JW1C" tags="JW" position="850,750" size="100,100">&lt;img src=&quot;images/JW1C.JPG&quot; alt=&quot;Jamal, a little older, with longer hair, is working at the counter of a smoke shop.&quot;&gt;
 
 You start work at the smoke shop that opened in the new shopping center. Selling pipes to rich college kids isn&#39;t the most fun but the paycheck helps your mom so its worth it.
 
 After medical marijuana gets legalized in Colorado you get a job at new dispensary. You work hard but realize it doesnt matter, the boss will never see you how he sees your white co-workers. 
 
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW00S2]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="26" name="JW1D" tags="JW" position="1050,750" size="100,100">&lt;img src=&quot;images/JW1D.JPG&quot; alt=&quot;.&quot;&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW00S2]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="26" name="JW1D" tags="JW" position="1050,750" size="100,100">&lt;img src=&quot;images/JW1D.JPG&quot; alt=&quot;Jamal seated in an office cubicle wearing a uniform polo shirt.&quot;&gt;
 
 You finish up your degree in finance and apply for jobs based in policy making. You know thats the real way a difference is gonna be made about poverty in your communities. 
  
 On top of that your student loan debt repayments start soon.
 &lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW00S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="27" name="JW20S" tags="JW" position="1075,1450" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 2020s&lt;/h1&gt;&lt;/div&gt;
 &lt;&lt;video &quot;videos/SaturdayNight.mp4&quot; controls&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW4A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="28" name="JW2A" tags="JW" position="1075,875" size="100,100">&lt;img src=&quot;images/JW2A.JPG&quot; alt=&quot;.&quot;&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW4A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="28" name="JW2A" tags="JW" position="1075,875" size="100,100">&lt;img src=&quot;images/JW2A.JPG&quot; alt=&quot;Jamal, a little older, seated in his office cubicle, a serious look on his face.&quot;&gt;
 
-You got the job! You get to help write policies for local small business&#39; now. You quickly realize your not gonna be able to make the difference that you thought. The policies aren&#39;t designed to help people in your communities.
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW2B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="29" name="JW2B" tags="JW" position="1050,1000" size="100,100">&lt;img src=&quot;images/JW2B.JPG&quot; alt=&quot;.&quot;&gt;
-You review small business loan approvals in 2008 and sees how the funding is being distribute, and sometings not right. 
+You got the job! You get to help write policies for local small businesses now.
+
+You quickly realize you&#39;re not gonna be able to make the difference that you thought.
+
+The policies just aren&#39;t designed to help people in your community. It&#39;s an uphill battle to change them.
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW2B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="29" name="JW2B" tags="JW" position="1050,1000" size="100,100">&lt;img src=&quot;images/JW2B.JPG&quot; alt=&quot;Jamal in his office cubicle, an expression of disillusionment on his face.&quot;&gt;
+You stare at the numbers on the screen, clicking through loan approvals in 2008. At first, it’s just data—percentages, addresses, application notes. But patterns start to emerge. The names. The zip codes. The denials. You scroll faster, heat rising in your chest. It hits you how uneven the playing field really is—how getting an equity loan isn’t just about having a solid plan. It’s about who you are, and where you come from.
 
 &lt;&lt;jw&gt;&gt;How come every time I push for an equity loan, it gets denied, but John’s expansion gets rubber-stamped?&lt;&lt;/jw&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW2C]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="30" name="JW2C" tags="JW" position="1050,1125" size="100,100">&lt;img src=&quot;images/JW2C.JPG&quot; alt=&quot;.&quot;&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW2C]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="30" name="JW2C" tags="JW" position="1050,1125" size="100,100">&lt;img src=&quot;images/JW2C.JPG&quot; alt=&quot;Jamal in his office cubicle, a little older, looking very tired and disappointed.&quot;&gt;
 &lt;&lt;ctp &quot;JW&quot;&gt;&gt;
 &lt;&lt;jw&gt;&gt;I fought to get these loan programs expanded, but it’s the same old game.&lt;&lt;/jw&gt;&gt;
 &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;JW&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
@@ -1364,63 +1425,102 @@ You review small business loan approvals in 2008 and sees how the funding is bei
 &lt;&lt;jw&gt;&gt;And here I am, fighting for scraps. What is the point of all this?&lt;&lt;/jw&gt;&gt;
 &lt;&lt;/ctp&gt;&gt;
 
-You&#39;re left with a decision now. Do you stay working in government fighting for change or quit and open your own dispensary?
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Stay in government and keep pushing for change|JW2E]]&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Quit and open your own dispensary|JW10S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="31" name="JW2D" tags="JW" position="825,875" size="100,100">&lt;img src=&quot;images/JW2D.JPG&quot; alt=&quot;.&quot;&gt;
+Given all that you&#39;re experiencing, do you think it&#39;s worth it to stay where you are and keep trying to change policies to help your community?
+
+Or is this mess just a lost cause right now? You could try to open your own dispensary insteead.
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Keep pushing for change|JW2E]]&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Open your own dispensary|JW10S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="31" name="JW2D" tags="JW" position="825,875" size="100,100">&lt;img src=&quot;images/JW2D.JPG&quot; alt=&quot;Jamal in a green uniform polo working in a dispensary, a big smile on his face.&quot;&gt;
 
 You get a job at a medical dispensary after medical marijuana gets legalized. The owner only comes into the store between trips to different ski resorts. 
 
-You try to get a liscense for yourself to no avail, even legalization doesnt mean equal access. 
+You try to get a license for yourself to no avail. You soon learn that legalization doesnt mean a level playing field.. 
 
-Your stuck with a decision now, do you keep working for others or take a high interest loan to start your own medical dispensary.
+You&#39;re stuck at a decision point.
+Do you keep working for others?
+Or will you take the risk of getting a high-interest loan to start your own medical dispensary.
 &lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Keep working for others|JW2F]]&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Take a risky high-interest loan to start your business|JW10S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="32" name="JW2E" tags="JW" position="1050,1250" size="100,100">&lt;img src=&quot;images/JW2E.JPG&quot; alt=&quot;.&quot;&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Start your business|JW10S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="32" name="JW2E" tags="JW" position="1050,1250" size="100,100">&lt;img src=&quot;images/JW2E.JPG&quot; alt=&quot;Jamal in his office cubicle, a little older, looking very tired and disappointed.&quot;&gt;
 &lt;&lt;jw&gt;&gt;If I leave now, nothing changes. Maybe I can fix this.&lt;&lt;/jw&gt;&gt;
 You push for stronger lending programs but most reforms end up watered down.
-New leadership comes in and priorities change, fast. Its all about tax cuts now and helping the corportate entities.
+
+New leadership comes in. Priorities change...and fast. Its all about tax cuts now and helping the big corporations.
+
 After years of hitting bureaucratic walls, you can&#39;t take it anymore and decide its time.
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW10S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="33" name="JW2F" tags="JW" position="925,1000" size="100,100">&lt;img src=&quot;images/JW2F.JPG&quot; alt=&quot;.&quot;&gt;
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW10S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="33" name="JW2F" tags="JW" position="925,1000" size="100,100">&lt;img src=&quot;images/JW2F.JPG&quot; alt=&quot;Jamal working in the dispensary, looking at his payslip at the end of the day.&quot;&gt;
 &lt;&lt;jw&gt;&gt;The owner makes millions. I make minimum wage...&lt;&lt;/jw&gt;&gt;
 
-You stay strong and keep working hard for another couple of years.  Pretty soon the discrepancies get to you. The owners of the business don&#39;t even have to work but still take home all the profit. Deep down you know, there&#39;s no future for you here. Maybe its time for a change?
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW10S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="34" name="JW3A" tags="JW" position="825,1200" size="100,100">&lt;img src=&quot;images/JW3A.JPG&quot; alt=&quot;.&quot;&gt;
+You stay strong and keep working hard for another couple of years.  Pretty soon the discrepancies get to you. The owners don&#39;t produce anything. All of the value created in the business comes from the workers. Hell, the owner hardly does any work at all, but still somehow gets to take home all the profit.
 
- You decide to finally open the dispensary you have been waiting to open. Its near impossible to get a fair loan, even with all the work you did. You have to settle for interest payments that are higher then you wanted but in combination with your savings, you&#39;re able to open. 
+Deep down you know, there&#39;s no future for you here. Maybe its time for a change?
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW10S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="34" name="JW3A" tags="JW" position="825,1200" size="100,100">&lt;img src=&quot;images/JW3A.JPG&quot; alt=&quot;Jamal in his own dispensary, happy but tired at the work he had to do to get here.&quot;&gt;
+
+You decide to finally open the dispensary you have been dreaming about. Its near impossible to get a fair loan, even with all the work you did. You have to settle for interest payments that are higher then you wanted but in combination with your savings, you&#39;re able to open. 
  
- Opening and the months that passed after go well, and the business is doing good. Local media even comes and does a feature on the store and interviews you. The story gets released as &quot;Black entrepreneur breaking barriers.&quot;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW3B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="35" name="JW3B" tags="JW" position="825,1325" size="100,100">&lt;img src=&quot;images/JW3B.JPG&quot; alt=&quot;.&quot;&gt;
+Things go more smoothly than you expected and business is going well after your first few months. Local media even comes and does a feature on the store and interviews you. The story gets released as &quot;Black entrepreneur breaking barriers.&quot;
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW3B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="35" name="JW3B" tags="JW" position="825,1325" size="100,100">&lt;img src=&quot;images/JW3B.JPG&quot; alt=&quot;Jamal dressed casually, smiling for a TV camera.&quot;&gt;
 &lt;&lt;jw&gt;&gt;I did it. I beat the system. Didn’t I?&lt;&lt;/jw&gt;&gt;
 
-With the business doing well corporate investors have reached out, looking to invest in your dispensary. Do you take their money to help with the loans but lose some control of the business? Or do you stay independent and ride the success of the beginning months of your new business. 
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Expand with an investor buyout|JW3C]]&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Stay independent|JW3D]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="36" name="JW3C" tags="JW" position="825,1450" size="100,100">&lt;img src=&quot;images/JW3C.JPG&quot; alt=&quot;.&quot;&gt;
-You sell part of your business to investors, the loans don&#39;t look as bad anymore but now your not the only one making decisions. 
+With the business doing well, corporate investors start to reach out, looking to invest. 
+
+It&#39;s tempting to take take their money. You could defnitely use it right now to help with the loans you&#39;ve taken out. But at the same time, you know you&#39;d lose some control of the business. Would it even be &lt;strong&gt;yours&lt;/strong&gt; at that point?
+
+Or would it be better to stay independent and enjoy the modest success you&#39;re having right now with the new business.
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Investor buyout|JW3C]]&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Stay independent|JW3D]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="36" name="JW3C" tags="JW" position="825,1450" size="100,100">&lt;img src=&quot;images/JW3C.JPG&quot; alt=&quot;An older Jamal in his dispensary, looking out the window across the street, seriously considering his options.&quot;&gt;
+You sell part of your business to investors. You can breathe again. The loans don&#39;t look as bad anymore. Only now you&#39;re not the only one making decisions. 
 
 &lt;&lt;jw&gt;&gt;It’s still my business, right?&lt;&lt;/jw&gt;&gt;
-You watch over the years as your dispensary expands, but decisions are made without your input. 
-By 2020, corporate takeovers accelerate. The investors sell the company to a larger cannabis chain.
+You watch over the years as your brand expands into a local chain, but decisions are made without your input. 
+
+By 2020, corporate takeovers accelerate. The investors sell your company to a larger cannabis chain.
+
 &lt;&lt;jw&gt;&gt;I built this from the ground up. And now it’s just another storefront to them.&lt;&lt;/jw&gt;&gt;
-The investors get tired of you pushing for business practices that help the community and the board pushes you out of the business with a severance package. 
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW5A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="37" name="JW3D" tags="JW" position="950,1450" size="100,100">&lt;img src=&quot;images/JW3D.JPG&quot; alt=&quot;.&quot;&gt;
+
+The investors get tired of you pushing for business practices that help the community and the board pushes you out of the business with a severance package.
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW5A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="37" name="JW3D" tags="JW" position="950,1450" size="100,100">&lt;img src=&quot;images/JW3C.JPG&quot; alt=&quot;An older Jamal in his dispensary, looking out the window across the street, seriously considering his options.&quot;&gt;
 
 
 &lt;&lt;jw&gt;&gt;This is mine. No way I’m giving it up.&lt;&lt;/jw&gt;&gt;
 No way you&#39;re gonna sell now, not after all this work you&#39;ve put in. 
-After the initial success wears off, the store begins to struggle. The loan repayments start to catch up and the interest keeps the principal high. Corporate dispensaries lower prices to drive competition out, they can afford to not profit now. By 2020 you are barely breaking even at the dispensary. Something has to change. 
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW20S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="38" name="JW4A" tags="JW" position="950,1575" size="100,100">&lt;img src=&quot;images/JW4A.JPG&quot; alt=&quot;.&quot;&gt;
-The COVID-19 pandemic hits and soon business starts to slow down. Corporate dispensaries have the deep pockets of their owners and get relief loans. Your stuck wondering how much longer you can stay open.
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW4B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="39" name="JW4B" tags="JW" position="950,1700" size="100,100">&lt;img src=&quot;images/JW4B.JPG&quot; alt=&quot;.&quot;&gt;
+
+After the initial success wears off, the store begins to struggle. The loan repayments start to catch up and the high interest makes it harder to pay down the principal. 
+
+Corporate dispensaries lower prices to drive competition out. They can afford not to make a profit now.
+
+By 2020 you are barely breaking even at the dispensary. Something has to change. 
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW20S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="38" name="JW4A" tags="JW" position="950,1575" size="100,100">&lt;img src=&quot;images/JW4A.JPG&quot; alt=&quot;An older jamal in the back office of his dispensary, a troubled look on his face.&quot;&gt;
+The COVID-19 pandemic hits and soon business starts to slow down.
+
+Corporate dispensaries have rich owners with deep pockets. They can easily get relief loans.
+
+You unlock the door like you always do, even though the street’s been quiet for weeks. Another day, another uphill climb. The rent’s due, the bills haven’t stopped, and every order you fill feels like it might be the last. You’re doing everything right, but it still feels like you’re bleeding slow, and no one’s coming to stop it.
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW4B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="39" name="JW4B" tags="JW" position="950,1700" size="100,100">&lt;img src=&quot;images/JW4A.JPG&quot; alt=&quot;An older jamal in the back office of his dispensary, a troubled look on his face.&quot;&gt;
 &lt;&lt;jw&gt;&gt;&quot;I need the money, but I know this is a trap. They’d never pull this with a guy like John.&quot;&lt;&lt;/jw&gt;&gt;
 
-Your almost out of money but there is a few more chances for revenue. Colorado opened up online pickup and delivery for cannabis products during the pandemic, but the protocols are tight. Your not sure you are gonna get approved. Do you try for new streams of revenue or take on relief loans?
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Take on relief loans|JW5A]]&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Try alternative revenue streams|JW5B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="40" name="JW5A" tags="JW" position="775,1700" size="100,100">&lt;img src=&quot;images/JW5A.JPG&quot; alt=&quot;.&quot;&gt;
+The terms of the relief loan aren&#39;t great, but you&#39;re almost out of money. You also don&#39;t know if you&#39;d even get approved at this stage in the game.
 
-&lt;&lt;jw&gt;&gt;I&#39;ve worked hard my whole life and this is how I am rewarded? I can&#39;t start over again, how am I going to help my mom?&lt;&lt;/jw&gt;&gt;
+...but there could be a few alternative opportunities to create revenue without taking out more loans.
 
-You get invited to your old co-workers retirement party. He&#39;s 6 years younger then you and already retiring, but you still have a long road ahead. 
-&lt;div class=&quot;storychoice&quot;&gt;&lt;div class=&quot;center&quot;&gt;[[The End|Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="41" name="JW5B" tags="JW" position="1175,1625" size="100,100">&lt;img src=&quot;images/gildedgreen.jpg&quot; alt=&quot;.&quot;&gt;
-Getting approved for online orders and delivery is hard and time consuming, but you finallly get approved. By the time you get approved, a new corporate dispensary opens, offering deals and discounts that you know aren&#39;t making them money.
+With the pandemic, Colorado just allowed online ordering, pickup, and delivery for cannabis products...but the protocols are tight.
+
+Which do you think is the better option right now?
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Take on relief loans|JW6A]]&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Try alternative revenue streams|JW5B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="40" name="JW5A" tags="JW" position="675,1700" size="100,100">&lt;img src=&quot;images/JW4B.JPG&quot; alt=&quot;An older Jamal talking to a friend who is retiring.&quot;&gt;
+
+&lt;&lt;jw&gt;&gt;I&#39;ve worked hard my whole life and this is how I am rewarded? I can&#39;t start over again. How am I going to help my mom?&lt;&lt;/jw&gt;&gt;
+
+You get invited to your old co-workers retirement party. He&#39;s 6 years younger than you and already retiring, but you still have a long road ahead.
+
+&lt;div class=&quot;storychoice&quot;&gt;&lt;div class=&quot;center&quot;&gt;[[The End|Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="41" name="JW5B" tags="JW" position="1175,1625" size="100,100">&lt;img src=&quot;images/gildedgreen.jpg&quot; alt=&quot;the gilded green corporate dispensary across the street, all metal and glass storefront, logos and text covered in gold.&quot;&gt;
+Getting approved for online orders and delivery is hard and time consuming, but you do finally make it through the process. By the time you get approved, a new corporate dispensary opens across the street from your business, offering deals and discounts that you know aren&#39;t making them money.
 &lt;&lt;ctp &quot;JW&quot;&gt;&gt;
 &lt;&lt;jw&gt;&gt;&quot;I worked hard. Followed the rules.&lt;&lt;/jw&gt;&gt;
 &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;JW&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
@@ -1430,9 +1530,18 @@ Getting approved for online orders and delivery is hard and time consuming, but 
 &lt;&lt;ctpNext&gt;&gt;
 &lt;&lt;jw&gt;&gt;Tell me again how things are fair and equitable?&lt;&lt;/jw&gt;&gt;
 &lt;&lt;/ctp&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[The End|Character Select]] &lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="42" name="JW90S" tags="JW" position="950,500" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 1990s&lt;/h1&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[The End|Character Select]] &lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="42" name="JW6A" tags="" position="825,1700" size="100,100">&lt;img src=&quot;images/JW4A.JPG&quot; alt=&quot;An older jamal in the back office of his dispensary, a troubled look on his face.&quot;&gt;
+You refresh the page one more time, even though you already know what it’s going to say.
+
+&lt;div class=&quot;center&quot;&gt;&lt;strong&gt;Application Denied.&lt;/strong&gt;&lt;/div&gt;
+
+The words blur for a second, but you blink them back into focus. You did everything right—filled out every form, submitted every document, hoped like hell.
+
+But it wasn’t enough. Not for them. Not this time. Outside, the lights on the storefront flicker in the fading daylight. You know what comes next, even if you’re not ready to say it out loud.
+
+[[Continue|JW5A]]</tw-passagedata><tw-passagedata pid="43" name="JW90S" tags="JW" position="950,500" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 1990s&lt;/h1&gt;&lt;/div&gt;
 &lt;&lt;video &quot;videos/Responsibility.mp4&quot; controls&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW1A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="43" name="Jamal Washington" tags="JW" position="850,500" size="100,100">&lt;&lt;set $sysdis to 50&gt;&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|JW1A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="44" name="Jamal Washington" tags="JW" position="850,500" size="100,100">&lt;&lt;set $sysdis to 50&gt;&gt;
 &lt;&lt;set $legal to 30&gt;&gt;
 &lt;&lt;set $wealth to 20&gt;&gt;
 &lt;&lt;set $health to 70&gt;&gt;
@@ -1447,7 +1556,7 @@ Getting approved for online orders and delivery is hard and time consuming, but 
 &lt;&lt;type 60ms&gt;&gt;&lt;b&gt;Education:  &lt;/b&gt;High School Graduate&lt;&lt;/type&gt;&gt;
 &lt;&lt;type 60ms&gt;&gt;&lt;b&gt;Income:  &lt;/b&gt;Low Income&lt;&lt;/type&gt;&gt;
 &lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Meet Jamal|JW90S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="44" name="John Anderson" tags="JA" position="1400,300" size="100,100">&lt;&lt;set $sysdis to 0&gt;&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[You start just after high school.|JW90S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="45" name="John Anderson" tags="JA" position="1400,300" size="100,100">&lt;&lt;set $sysdis to 0&gt;&gt;
 &lt;&lt;set $legal to 0&gt;&gt;
 &lt;&lt;set $wealth to 90&gt;&gt;
 &lt;&lt;set $health to 80&gt;&gt;
@@ -1462,14 +1571,21 @@ Getting approved for online orders and delivery is hard and time consuming, but 
 &lt;&lt;type 60ms&gt;&gt;&lt;b&gt;Education:  &lt;/b&gt;Ivy-League Graduate&lt;&lt;/type&gt;&gt;
 &lt;&lt;type 60ms&gt;&gt;&lt;b&gt;Income:  &lt;/b&gt;Wealthy&lt;&lt;/type&gt;&gt;
 &lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[John Anderson|JA90S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="45" name="MT00S" tags="MT" position="375,550" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 2000s&lt;/h1&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Begin|JA90S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="46" name="MT00S" tags="MT" position="375,550" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 2000s&lt;/h1&gt;&lt;/div&gt;
 &lt;&lt;video &quot;videos/07-MyFriendsSmokeWeed.mp4&quot; controls&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT3A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="46" name="MT1A" tags="MT" position="0,425" size="100,100">&lt;img src=&quot;images/MT1A.JPG&quot;/&gt;
-You finish high school in the early 1980s and begin to look for work. There are lots of factory jobs available but the pay isn&#39;t great and no one looks happy when they leave. You could also try to open the food truck you have been dreaming of opening your whole life. You don&#39;t have the money so you would need a loan to start, and its well known that its hard to get loan. Do you take a factory job or start your side business?
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Take a low-wage factory job|MT90S][$sysdis +=5, $wealth -=10]]&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Start a small side business|MT90S][$sysdis +=10, $wealth -=10]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="47" name="MT20S" tags="MT" position="300,700" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 2020s&lt;/h1&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT3A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="47" name="MT1A" tags="MT" position="0,425" size="100,100">&lt;img src=&quot;images/MT1A.JPG&quot; alt=&quot;Michael Thompson is a black male with a sharp fade and goatee, wearing a black suit and white shirt, at his after-graduation party.&quot;/&gt;
+You finish high school in the early 1980s. After the party is over, it hits you that you really need to begin looking for work.
+
+There are lots of factory jobs available but the pay isn&#39;t great and no one looks happy when they leave.
+
+You could also try to open the food truck you have been dreaming of opening your whole life...but you don&#39;t have the money. You&#39;d need a loan to start, and its well known that its hard to get loan.
+
+Do you take a factory job or work to start your own business?
+
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Factory|MT90S][$sysdis +=5, $wealth -=10]]&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Small Business|MT90S][$sysdis +=10, $wealth -=10]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="48" name="MT20S" tags="MT" position="300,700" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 2020s&lt;/h1&gt;&lt;/div&gt;
 &lt;&lt;video &quot;videos/10-Diner.mp4&quot; controls&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT5A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="48" name="MT2A" tags="MT" position="250,425" size="100,100">&lt;img src=&quot;images/MT2A.JPG&quot;/&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT5A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="49" name="MT2A" tags="MT" position="250,425" size="100,100">&lt;img src=&quot;images/MT2A.JPG&quot; alt=&quot;Michael in a denim jacket, standing outside the corner store with friends.&quot;/&gt;
 Many people in your neighborhood have been getting arrested for minor cannabis offenses. You see your brother, Malik, outside the corner store.
 &lt;&lt;ctp &quot;MTandMTbro&quot;&gt;&gt;
 &lt;&lt;mt&gt;&gt;Stay in school, man.&lt;&lt;/mt&gt;&gt;
@@ -1479,8 +1595,9 @@ Many people in your neighborhood have been getting arrested for minor cannabis o
 &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;MTandMTbro&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 &lt;&lt;ctpNext&gt;&gt;
 You shake your head, but you know Malik&#39;s got a point.
+Just then, you overhear a news report on the radio...
 &lt;&lt;/ctp&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Just then, you overhear a news report on the radio...|MT2B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="49" name="MT2B" tags="MT" position="125,550" size="100,100">&lt;img src=&quot;images/radio.JPG&quot;/&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT2B]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="50" name="MT2B" tags="MT" position="125,550" size="100,100">&lt;img src=&quot;images/radio.JPG&quot; alt=&quot;an older radio with concentric circles to emphasize that sound is being produced.&quot;/&gt;
 You overhear a radio report:
 &lt;&lt;ctp &quot;radio&quot;&gt;&gt;
 &lt;&lt;radio&gt;&gt;Under the 1986 Anti-Drug Abuse Act,&lt;&lt;/radio&gt;&gt;
@@ -1492,17 +1609,22 @@ You overhear a radio report:
 &lt;&lt;radio&gt;&gt;Critics argue this disproportionately impacts Black communities.&lt;&lt;/radio&gt;&gt;
 &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;radio&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 &lt;&lt;ctpNext&gt;&gt;
-After thinking for a minute, you shake your head&amp;hellip;
+After thinking for a minute, you shake your head again&amp;hellip;
 &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;radio&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 &lt;&lt;ctpNext&gt;&gt;
 &lt;&lt;mt&gt;&gt;I&#39;m not selling, so I&#39;m fine&amp;hellip;right??&lt;&lt;/mt&gt;&gt;
 &lt;&lt;/ctp&gt;&gt;
-What do you do? Do you avoid cannabis entirely, only use casually, or start smoking regularly?
+
+You could avoid cannabis entirely and stay away from users.
+You could occasionally smoke.
+You could avoid using it, but frequently associate with users and dealers.
+What do you do?
+
 &lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Avoid cannabis use entirely|MT2C][$wealth -=5]]&lt;/div&gt;&lt;/div&gt;
 &lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Casual use|MT2D][$legal +=10, $sysdis +=5,$MTprison to true]]&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Association with users|MT2E][$legal +=10, $sysdis +=5,$MTprison to true]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="50" name="MT2C" tags="MT" position="50,700" size="100,100">You decide to avoid cannabis use entirely. You know its not worth the risk but its hard to go watch your friends use while you are avoiding. 
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Association with users|MT2E][$legal +=10, $sysdis +=5,$MTprison to true]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="51" name="MT2C" tags="MT" position="50,700" size="100,100">You decide to avoid cannabis use entirely. You know its not worth the legal risk, but with so much cannabis use around you, the social consequences are hard to deal with. 
 &lt;&lt;mt&gt;&gt;“Man, I’m not risking my future over this…but damn, same thing John’s rich friends do all the time and nobody cares.&quot;&lt;&lt;/mt&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT4A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="51" name="MT2D" tags="MT" position="175,700" size="100,100">&lt;img src=&quot;images/MT2D.JPG&quot;/&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT4A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="52" name="MT2D" tags="MT" position="175,700" size="100,100">&lt;img src=&quot;images/MT2D.JPG&quot; alt=&quot;Michael accepting a joint from a friend outside the corner store.&quot;/&gt;
 As you talk with your brother outside the corner store, your friend passes you a joint.
 &lt;&lt;ctp &quot;MTandMTbro&quot;&gt;&gt;
 &lt;&lt;mt&gt;&gt;What’s the worst that could happen? It’s just a little weed…cops got bigger problems, right?&lt;&lt;/mt&gt;&gt;
@@ -1513,21 +1635,32 @@ As you talk with your brother outside the corner store, your friend passes you a
 &lt;&lt;ctpNext&gt;&gt;
 &lt;&lt;mt&gt;&gt;I don’t make the rules, man.&lt;&lt;/mt&gt;&gt;
 &lt;&lt;/ctp&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[The cops show up|MT2E]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="52" name="MT2E" tags="MT" position="250,550" size="100,100">&lt;img src=&quot;images/MT3A.JPG&quot;/&gt;
-The cops show up and you know you are screwed now. They caught you red handed with the joint in your hand. The cops arrest you and take you to jail. You can hear your moms distress when you call her from the jailhouse phone. Its too late for visitors now, you&#39;ll have to spend the night in jail before you can see your mom. She visits the next day:
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Cops got bigger problems, right?|MT2E]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="53" name="MT2E" tags="MT" position="250,550" size="100,100">&lt;img src=&quot;images/MT3A.JPG&quot; alt=&quot;Michael in the glow of red and blue lights, and expression of fear on his face.&quot;/&gt;
+The cops show up and you know you are screwed. They caught you red handed with weed.
+
+You&#39;re arrested and end up in the county jail. You can hear your mom&#39;s distress when you use your one phone call.
 &lt;&lt;ctp &quot;MTandMTmom&quot;&gt;&gt;
-&lt;&lt;mt&gt;&gt;I just don&#39;t know how this happened.&lt;&lt;/mt&gt;&gt;
+&lt;&lt;mt&gt;&gt;I don&#39;t know how this happened.&lt;&lt;/mt&gt;&gt;
 &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;MTandMTmom&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 &lt;&lt;ctpNext&gt;&gt;
 &lt;&lt;mtmom&gt;&gt;Don&#39;t matter. I worked two jobs to keep you boys safe. Now…look at you.&lt;&lt;/mtmom&gt;&gt;
 &lt;&lt;/ctp&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[You had a good lawyer|MT20S]]&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Wrong place, wrong time|MT00S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="53" name="MT3A" tags="MT" position="500,825" size="100,100">&lt;img src=&quot;images/MT3B.JPG&quot;/&gt;
-You present yourself in the courtroom for sentencing.
+It&#39;s too late for visitors now. You&#39;ll have to spend the night in jail before you can even see her.
+
+How do you think this part will play out?
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[You have a good lawyer|MT20S]]&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[A case of wrong place, wrong time|MT00S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="54" name="MT3A" tags="MT" position="500,825" size="100,100">&lt;img src=&quot;images/MT3B.JPG&quot; alt=&quot;An older white man in a judge&#39;s robe sitting in the courtroom, his finger in their air in admonishment, the US flag in the background.&quot;/&gt;
+The air is heavy in the courtroom.
+
+You sit still, palms damp against your slacks, but the nerves feel distant—muted by something heavier. You&#39;ve seen all this before, maybe not sitting in this seat, but living in this same system.
+
+Behind you, your mother shifts quietly, holding it together for your sake. Malik hasn’t said a word since you walked in.
+
+Your lawyer leans close and whispers something meant to comfort, but it barely lands.
+
+You hear sharp footsteps and the door to the judge’s chamber clicks open.
 
 &lt;&lt;ctp &quot;MTandMTjudge&quot;&gt;&gt;
-
-
 &lt;&lt;mtjudge&gt;&gt;Under federal law, I have no discretion here.&lt;&lt;/mtjudge&gt;&gt;
 &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;MTandMTjudge&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 &lt;&lt;ctpNext&gt;&gt;
@@ -1549,23 +1682,37 @@ You think to yourself...
 &lt;&lt;mt&gt;&gt;but I see the look on my lawyer’s face. This was decided before I even walked in.”&lt;&lt;/mt&gt;&gt;
 &lt;&lt;/ctp&gt;&gt;
 &lt;&lt;if $JWplayed is true&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[MT6A][$wealth -=50, %health -=40, $sysdis +=20]]&lt;/div&gt;&lt;/div&gt;
-&lt;&lt;else&gt;&gt;&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[MT5F][$wealth -=50, %health -=40, $sysdis +=20]]&lt;/div&gt;&lt;/div&gt;
-&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="54" name="MT4A" tags="MT" position="50,825" size="100,100">&lt;img src=&quot;images/MT4A.JPG&quot;/&gt;
-Social-equity business licenses become available for the cannabis industry following its legalization. Prior offenders face harder restrictions and decreased access to resources. Do you apply for a social-equity license to start a dispensary? Or keep working in facrtoy jobs?
-&lt;&lt;if $MTprison is true&gt;&gt;&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT5A]]&lt;/div&gt;&lt;/div&gt;&lt;&lt;else&gt;&gt;&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Apply for a social-equity business liscense to open a dispensary|MT5B]]&lt;/div&gt;&lt;/div&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="55" name="MT5A" tags="MT" position="300,825" size="100,100">&lt;img src=&quot;images/MT5A.JPG&quot;/&gt;
-You continue to work in factory jobs but still struggle with the low income and not being able to make more money. 
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[MT6A][$wealth -=50, $health -=40, $sysdis +=20]]&lt;/div&gt;&lt;/div&gt;
+&lt;&lt;else&gt;&gt;&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[MT5F][$wealth -=50, $health -=40, $sysdis +=20]]&lt;/div&gt;&lt;/div&gt;
+&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="55" name="MT4A" tags="MT" position="50,825" size="100,100">&lt;img src=&quot;images/MT4A.JPG&quot; alt=&quot;Michael sitting at his kitchen table, papers strewn all over the place.&quot;/&gt;
+&lt;&lt;if MTprison is true&gt;&gt;
+After legalization in Colorado, social-equity business licenses open up to allow competition in a market that&#39;s already dominated by corporations.
+
+Due to your criminal record, though, there is no way you&#39;ll get approved. Your only option right now is to keep working your same old low-wage job.
+&lt;&lt;else&gt;&gt;
+Cannabis legalization leads to new opportunities. Colorado establishes a social-equity business license program to get into a cannabis industry that has already been dominated by corporations and rich investors.
+
+You can open you own dispensary and become a small business owner. This is the best chance you&#39;ve had in a while. You know you have to take it. 
+&lt;&lt;/if&gt;&gt;
+
+&lt;&lt;if $MTprison is true&gt;&gt;&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT5A]]&lt;/div&gt;&lt;/div&gt;&lt;&lt;else&gt;&gt;&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT5B]]&lt;/div&gt;&lt;/div&gt;&lt;&lt;/if&gt;&gt;</tw-passagedata><tw-passagedata pid="56" name="MT5A" tags="MT" position="300,825" size="100,100">&lt;img src=&quot;images/MT5A.JPG&quot; alt=&quot;Michael at his factory job, dressed in a denim jacket, yellow vest, safety goggles, and a hard hat.&quot;/&gt;
+You continue working for low wages and keep struggling. Not only is your income low, but better opportunities just never seem to show up for you. 
 &lt;&lt;set $MTplayed to true&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="56" name="MT5B" tags="MT" position="0,950" size="100,100">&lt;img src=&quot;images/MT5B.JPG&quot;/&gt;
-After jumping through countless hoops, your application for a business license gets approved. You become a cannabis business owner due to social-equity programs.
-&lt;&lt;if $JWplayed&gt;&gt;&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[MT6E]]&lt;/div&gt;&lt;/div&gt;&lt;&lt;else&gt;&gt;&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[MT5C]]&lt;/div&gt;&lt;/div&gt;&lt;&lt;/if&gt;</tw-passagedata><tw-passagedata pid="57" name="MT5C" tags="MT" position="125,950" size="100,100">&lt;img src=&quot;images/MT5C.JPG&quot;/&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[The End|Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="57" name="MT5B" tags="MT" position="0,950" size="100,100">&lt;img src=&quot;images/MT5B.JPG&quot; alt=&quot;An older Michael in a business suit standing on the sidewalk outside his dispensary.&quot;/&gt;
+Part of you never imagined this could happen. You&#39;re even more suprised that it happened to you.
+
+After jumping through countless hoops, your application for the social-equity business license gets approved. In no time at all, you become the owner of a small cannabis business due your persistence and the state&#39;s social-equity programs.
+&lt;&lt;if $JWplayed&gt;&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT6E]]&lt;/div&gt;&lt;/div&gt;&lt;&lt;else&gt;&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT5C]]&lt;/div&gt;&lt;/div&gt;
+&lt;&lt;/if&gt;</tw-passagedata><tw-passagedata pid="58" name="MT5C" tags="MT" position="125,950" size="100,100">&lt;img src=&quot;images/MT5C.JPG&quot; alt=&quot;Michael standing on the sidewalk with a look of regret on his face.&quot;/&gt;
 &lt;&lt;mt&gt;&gt;“I made it, but how many others like me never got the chance?”&lt;&lt;/mt&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[MT5D]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="58" name="MT5D" tags="MT" position="250,950" size="100,100">&lt;img src=&quot;images/MT5D.JPG&quot;/&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT5D]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="59" name="MT5D" tags="MT" position="250,950" size="100,100">&lt;img src=&quot;images/MT5D.JPG&quot; alt=&quot;Michael standing on the sidewalk, biting his lip.&quot;/&gt;
 &lt;&lt;mt&gt;&gt;“Malik wanted to start a business, too…until the system swallowed him whole.”&lt;&lt;/mt&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[MT5E]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="59" name="MT5E" tags="MT" position="375,950" size="100,100">&lt;img src=&quot;images/MT5C.JPG&quot;/&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT5E]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="60" name="MT5E" tags="MT" position="375,950" size="100,100">&lt;img src=&quot;images/MT5C.JPG&quot; alt=&quot;Michael standing on the sidewalk with a look of regret on his face.&quot;/&gt;
 &lt;&lt;mt&gt;&gt;They said social equity would fix this, but if the system never broke us in the first place, we wouldn’t need ‘equity’ to begin with.”&lt;&lt;/mt&gt;&gt;
 &lt;&lt;set$MTplayed to true&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="60" name="MT5F" tags="MT" position="400,1200" size="100,100">&lt;img src=&quot;images/MT6B.JPG&quot;/&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[The End|Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="61" name="MT5F" tags="MT" position="400,1200" size="100,100">&lt;img src=&quot;images/MT6B.JPG&quot; alt=&quot;An older Michael sitting in a prison cell, wearing an orange jumpsuit.&quot;/&gt;
 &lt;&lt;ctp &quot;MT&quot;&gt;&gt;
 &lt;&lt;mt&gt;&gt;They legalized it.&lt;&lt;/mt&gt;&gt;
 &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;MT&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
@@ -1578,12 +1725,13 @@ After jumping through countless hoops, your application for a business license g
 &lt;&lt;ctpNext&gt;&gt;
 &lt;&lt;mt&gt;&gt;If my skin were a little lighter…would I be at some investor’s table right now instead of here?”&lt;&lt;/mt&gt;&gt;
 &lt;&lt;/ctp&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue living in prison|MT5G]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="61" name="MT5G" tags="MT" position="575,1200" size="100,100">&lt;img src=&quot;images/MT5G.JPG&quot;/&gt;
-The years tick pass on your prison sentence, slowly but surely. You know your not getting out for a long time. Eventually you start to grow old in prison and know that you might die here one day. 
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT5G]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="62" name="MT5G" tags="MT" position="575,1200" size="100,100">&lt;img src=&quot;images/MT5G.JPG&quot; alt=&quot;An older Michael in an orange jumpsuit, lying in an ambulance.&quot;/&gt;
+The years tick past on your prison sentence, slowly but surely. You know you&#39;re not getting out any time soon. Eventually you come to the realization that you&#39;re not getting any younger. Your chances for parole dry up just as fast as they come. Even the occasional visitor you used to see...well, that just doesn&#39;t happen as often as it used to.
 
-After a long prison sentence, Michael dies in prison.
+Eventually you become to weak to carry on. You die in prison.
 &lt;&lt;Set $MTplayed to true&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="62" name="MT6A" tags="MT Crossover JW" position="475,1075" size="100,100">You have been living in prison for a while now. The guards tell you that you have a new visitor, something that doesnt happen very often. The guards take you to the visitor center and you see your old friend, Jamal Washington. 
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[The End|Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="63" name="MT6A" tags="MT Crossover JW" position="475,1075" size="100,100">You’ve been living in prison long enough that the days blur together. So when the guard says you’ve got a visitor, it cuts through the monotony like cold air. You follow the familiar path to the visiting room, trying not to feel anything. But when you step inside and see Jamal Washington waiting—older, but unmistakably him—something shifts. A piece of the past, walking back into your life.
+&lt;img src=&quot;images/MTcrossover1.JPG&quot; alt=&quot;An older Michael in an orange jumpsuit, graying natural hair, his ear to a phone handset, talking to a visitor.&quot;/&gt;
 &lt;&lt;ctp &quot;MTandJW&quot;&gt;&gt;
  &lt;&lt;jw&gt;&gt;&quot;Man. You remember when we used to talk about opening a shop together?&lt;&lt;/jw&gt;&gt;
  &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;MTandJW&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
@@ -1595,8 +1743,10 @@ After a long prison sentence, Michael dies in prison.
  &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;MTandJW&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
 &lt;&lt;ctpNext&gt;&gt;
 &lt;&lt;mt&gt;&gt;Should. But ain’t nobody rushing to undo what they did to us.&lt;&lt;/mt&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[MT5F]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="63" name="MT6E" tags="MT Crossover JW" position="275,1200" size="100,100">&lt;img src=&quot;images/MT5B.JPG&quot;/&gt;
-Your new dispensary has been running for a while with mild success. It&#39;s not an easy living but the business is staying afloat. One day when you are working the counter, you get a visit from an old friend, Jamal Washington. 
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT5F]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="64" name="MT6E" tags="MT Crossover JW" position="275,1200" size="100,100">&lt;img src=&quot;images/MT5B.JPG&quot; alt=&quot;Michael standing outside his dispensary in a business suit, a serious expression on his face.&quot;/&gt;
+Your new dispensary has been running for a while with mild success. It&#39;s not an easy living but the business is staying afloat.
+
+One day when you are working the counter, you get a visit from an old friend, Jamal Washington. 
 &lt;&lt;ctp &quot;MTandJW&quot;&gt;&gt;
 &lt;&lt;jw&gt;&gt;Jamal: Man, you really did it&lt;&lt;/jw&gt;&gt;
 &lt;&lt;button &quot;Next&quot;&gt;&gt;&lt;&lt;ctpAdvance &quot;MTandJW&quot;&gt;&gt;&lt;&lt;/button&gt;&gt;
@@ -1607,11 +1757,11 @@ Your new dispensary has been running for a while with mild success. It&#39;s not
 &lt;&lt;jw&gt;&gt;Tell me about it…&lt;&lt;/jw&gt;&gt;
 (his own shop struggles across town, competing against big corporations.)
 &lt;&lt;/ctp&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="64" name="MT80S" tags="MT" position="100,300" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 1980s&lt;/h1&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[The End|Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="65" name="MT80S" tags="MT" position="100,300" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 1980s&lt;/h1&gt;&lt;/div&gt;
 &lt;&lt;video &quot;videos/89-Snake.mp4&quot; controls&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT1A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="65" name="MT90S" tags="MT" position="125,425" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 1990s&lt;/h1&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT1A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="66" name="MT90S" tags="MT" position="125,425" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Social Context&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The 1990s&lt;/h1&gt;&lt;/div&gt;
 &lt;&lt;video &quot;videos/90-StraightUp.mp4&quot; controls&gt;&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT2A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="66" name="Michael Thompson" tags="MT" position="225,300" size="100,100">&lt;&lt;set $sysdis to 50&gt;&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Continue|MT2A]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="67" name="Michael Thompson" tags="MT" position="225,300" size="100,100">&lt;&lt;set $sysdis to 50&gt;&gt;
 &lt;&lt;set $legal to 30&gt;&gt;
 &lt;&lt;set $wealth to 20&gt;&gt;
 &lt;&lt;set $health to 70&gt;&gt;
@@ -1626,7 +1776,7 @@ Your new dispensary has been running for a while with mild success. It&#39;s not
 &lt;&lt;type 60ms&gt;&gt;&lt;b&gt;Education:  &lt;/b&gt;High School Graduate&lt;&lt;/type&gt;&gt;
 &lt;&lt;type 60ms&gt;&gt;&lt;b&gt;Income:  &lt;/b&gt;Low Income&lt;&lt;/type&gt;&gt;
 &lt;/div&gt;
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[You start by graduating high school, so big choices are just ahead.|MT80S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="67" name="Start" tags="" position="400,100" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Introduction&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The War on Drugs&lt;/h1&gt;&lt;/div&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[You start by graduating high school, so big choices are just ahead.|MT80S]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="68" name="Start" tags="" position="400,100" size="100,100">&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Introduction&lt;/h2&gt;&lt;hr&gt;&lt;h1&gt;The War on Drugs&lt;/h1&gt;&lt;/div&gt;
 &lt;img src=&quot;images/SKYLINE.JPG&quot; alt=&quot;The Denver skyline with Rocky Mountains in the background.&quot;&gt;
 &lt;div class=&quot;notebox&quot;&gt;
 &lt;hr&gt;
@@ -1645,22 +1795,24 @@ The left arrow key can be used to go back. The right arrow key can be used to go
 If a choice has a number after it, that number key on the keyboard will take you there.&lt;/div&gt;
 &lt;hr&gt;
 &lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Bookmarks&lt;/h2&gt;
-You are free to bookmark your place at any point using the SAVES menu in the sidebar. You can come back and load your saves later.
-
-Bookmarks are stored by your browser and aren&#39;t shared from one browser to another.&lt;/div&gt;
+As long as you&#39;re in the same browser on the same device, you are free to bookmark your place at any point using the SAVES menu in the sidebar. You can come back and load your saves later.
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Restart&lt;/h2&gt;
-The Restart button will reset everything. It will be as if you had not checked out any of the characters&#39; stories.
+Careful with this one! The Restart button will reset everything. It will be as if you had not checked out any of the characters&#39; stories.
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;About PSAs&lt;/h2&gt;
+Throughout the story, public service announcements (PSAs) will be shown to give context to the current time within the simulation. Remember, especially in the earlier passages in each character&#39;s story, there was no internet. Almost all important information would have come to the characters via radio, newspapers, and television. 
 
-Careful with this one!&lt;/div&gt;
+Advertisements like these were created with government funding by private nonprofits who often had no understanding of the real market, consumption, effects, and consequences of drug use. Their intention was simply to scare both children and adults, framing the narrative about drugs, including cannabis, for decades.&lt;/div&gt;
 &lt;hr&gt;
 &lt;div class=&quot;chapterHead&quot;&gt;&lt;h2&gt;Note&lt;/h2&gt;
 This simulation includes themes of drugs and drug use, life and death, racism, and capitalism.
 
 Viewer discretion is advised.&lt;/div&gt;
 &lt;/div&gt;
-
-&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Select a Character|Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="68" name="StoryCaption" tags="Special-Passage" position="200,100" size="100,100">&lt;div id=&quot;status-bars&quot;&gt;
+&lt;div class=&quot;center&quot;&gt;&lt;div class=&quot;storychoice&quot;&gt;[[Select a Character|Character Select]]&lt;/div&gt;&lt;/div&gt;</tw-passagedata><tw-passagedata pid="69" name="StoryCaption" tags="Special-Passage" position="200,100" size="100,100">&lt;div id=&quot;status-bars&quot;&gt;
     &lt;p&gt;&lt;i class=&quot;fas fa-balance-scale&quot; style=&quot;font-size: 1.75em;&quot;&gt;&lt;/i&gt;&amp;emsp;SYS DISADVANTAGE&lt;/p&gt;
     &lt;div class=&quot;progress-bar&quot;&gt;&lt;div id=&quot;sysdis-bar&quot;&gt;
     &lt;/div&gt;&lt;/div&gt;
@@ -1676,7 +1828,7 @@ Viewer discretion is advised.&lt;/div&gt;
     &lt;p&gt;&lt;i class=&quot;fas fa-heartbeat&quot; style=&quot;font-size: 1.75em;&quot;&gt;&lt;/i&gt;&amp;emsp;HEALTH&lt;/p&gt;
     &lt;div class=&quot;progress-bar&quot;&gt;&lt;div id=&quot;health-bar&quot;&gt;
     &lt;/div&gt;&lt;/div&gt;
-&lt;/div&gt;</tw-passagedata><tw-passagedata pid="69" name="StoryInit" tags="Special-Passage" position="100,100" size="100,100">&lt;&lt;set $sysdis to 0&gt;&gt;
+&lt;/div&gt;</tw-passagedata><tw-passagedata pid="70" name="StoryInit" tags="Special-Passage" position="100,100" size="100,100">&lt;&lt;set $sysdis to 0&gt;&gt;
 &lt;&lt;set $legal to 0&gt;&gt;
 &lt;&lt;set $wealth to 0&gt;&gt;
 &lt;&lt;set $health to 0&gt;&gt;
