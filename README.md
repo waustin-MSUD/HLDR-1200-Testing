@@ -1,12 +1,13 @@
 The War on Drugs
 ================
 
-The Twine simulation is, of course, not yet finalized, but this site will help everyone see and note what needs work.
+This Twine simulation was designed for HLDR 1200 as part of the CTLD course development cycle 18 (Spring 2025).
+It's archived here in case errors are found when the course goes live.
 
 Live Demo
 ---------
 
-This link lets reviewers play the Twine in its current state.
+This link lets reviewers play the simulation.
 
 [Live Demo](https://waustin-MSUD.github.io/HLDR-1200-Testing/index.html)
 
